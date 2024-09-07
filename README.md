@@ -1,5 +1,5 @@
 # Machine-Learning-Project
-URL Classification Using Machine Learning
+<h2>URL Classification Using Machine Learning</h2>
 
 Overview
 This project classifies URLs as either "Legitimate" or "Phishing" using machine learning techniques. The process involves inputting web URLs, extracting and selecting features, preprocessing data, scaling features, training models, and evaluating their performance. The final model classifies new URLs based on the best-performing machine learning model.
