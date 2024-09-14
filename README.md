@@ -74,13 +74,13 @@
         <ul>
             <li><strong>Load Datasets:</strong> Import datasets containing labeled URLs (e.g., legitimate and phishing URLs).</li>
             <li><strong>Add Labels:</strong> Annotate the URLs with appropriate labels (0 for legitimate, 1 for phishing).</li>
-            <li><strong>Combine and Clean Data:</strong> Merge datasets and remove duplicates to create a comprehensive dataset for training.</li>
+            <li><strong>Clean Data:</strong> remove duplicates to create a comprehensive dataset for training.</li>
             <li><strong>Preprocess Data:</strong> Sample URLs and handle missing values to prepare the dataset for feature extraction and model training.</li>
         </ul>
     </li>
     <li><strong>Data Preprocessing:</strong> Prepare the data for model training and evaluation:
         <ul>
-            <li><strong>Handle Missing Values:</strong> Ensure that there are no NaN values in the dataset. Fill or impute missing values as necessary.</li>
+            <li><strong>Handle Missing Values:</strong> Ensure that there are no NaN values in the dataset. Remove missing values as necessary.</li>
             <li><strong>Split Data:</strong> Divide the dataset into training and test sets to evaluate model performance.</li>
         </ul>
     </li>
